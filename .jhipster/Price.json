@@ -1,0 +1,50 @@
+{
+  "changelogDate": "20230629131327",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "brandId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "priceList",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "priority",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "priceValue",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "curr",
+      "fieldType": "ISOCurrencyCode",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "EUR,USD,GBR,JPY"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Price",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

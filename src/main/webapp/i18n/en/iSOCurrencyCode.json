@@ -1,0 +1,11 @@
+{
+  "inditexApp": {
+    "ISOCurrencyCode": {
+      "null": "",
+      "EUR": "EUR",
+      "USD": "USD",
+      "GBR": "GBR",
+      "JPY": "JPY"
+    }
+  }
+}
